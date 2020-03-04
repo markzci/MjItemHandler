@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mark's Item Handler</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>Item Handler</h1>
+    <div class="list">
+        <h3>List Max Price of Items by Name</h3>
+        <button id="list-by-name-price">Retrieve</button>
+    </div>
+    <div class="findMaxPrice">
+        <h3>Enter Item Name and return its Max Price (leave blank to list all Items)</h3>
+        <input id="input-item-name" type="search" name="recipients" />
+        <br />
+        <button id="search-by-name">Search For an Item</button>
+        <br />
+    </div>
+    <hr />
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="items"></tbody>
+    </table>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+
+input[type="search"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+button, input {
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+}
+
+button {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1, .list, .findMaxPrice
+{
+    text-align:center;
+}
+
+
